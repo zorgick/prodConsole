@@ -1,6 +1,6 @@
 {
   "name": "prod-console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Console wrapper for browsers that disables or enables the output",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,12 @@
     "checkJS": "tsc --allowJs --checkJs --noEmit --target ES5 src/*.js",
     "docs": "jsdoc2md ./src/lib/prodConsole.js > ./docs/API.md"
   },
-  "keywords": ["console", "output", "block console", "disable console"],
+  "keywords": [
+    "console",
+    "output",
+    "block console",
+    "disable console"
+  ],
   "author": "Zakhar Kononov (zorgizorgik@gmail.com)",
   "license": "MIT",
   "repository": {
