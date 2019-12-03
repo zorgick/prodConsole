@@ -18,7 +18,7 @@ The most common use case for disabling console is for production mode in distrib
 **Require the module**
 
 ```js
-import consoleProxy from 'consoleProxy'
+import {consoleProxy} from 'consoleProxy'
 ```
 
 **Usage**
