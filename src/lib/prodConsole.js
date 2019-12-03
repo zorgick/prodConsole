@@ -3,9 +3,10 @@ import defaultApplier from '../utils/applier'
 
 /**
  * @typedef {Object<string, function>} prodConsole
- * @property {function} prodConsole.switchConsole Activates or disables console in the window object
+ * @property {function} switchConsole Activates or disables console in the window object
  * @example
- *    prodConsole.switchConsole('on') // Enables console output in production mode
+ * prodConsole.switchConsole('on') // Enables console output
+ * prodConsole.switchConsole('off') // Disables console output
  */
 
 /**

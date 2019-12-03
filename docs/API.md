@@ -56,11 +56,12 @@ prodConsole.switchConsole('on') || __prod_console__.switchConsole('on')
 
 | Name | Type | Description |
 | --- | --- | --- |
-| prodConsole.switchConsole | <code>function</code> | Activates or disables console in the window object |
+| switchConsole | <code>function</code> | Activates or disables console in the window object |
 
 **Example**  
 ```js
-prodConsole.switchConsole('on') // Enables console output in production mode
+prodConsole.switchConsole('on') // Enables console output
+prodConsole.switchConsole('off') // Disables console output
 ```
 <a name="opts"></a>
 
